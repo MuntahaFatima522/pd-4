@@ -3,12 +3,7 @@
 using namespace std;
 
 void gotoxy(int x,int y);
-void printM();
-void printU();
-void printN();
-void printT();
-void printA();
-void printH();
+
 
 main()
 {

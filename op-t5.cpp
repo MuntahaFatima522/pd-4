@@ -2,38 +2,31 @@
 #include<windows.h>
 using namespace std;
 
-void printMaze();
 void gotoxy(int x,int y);
+void printM();
+void printU();
+void printN();
+void printT();
+void printA();
+void printH();
 
 main()
 {
 	system("cls");
-	printMaze();
-	gotoxy(15,7);
-	cout<<"MUNTAHA FATIMA";
-	gotoxy(0,15);
+	gotoxy(45,25);
+	cout<<" #   #    #   #    #   #    #####     #     #   #    #    "<<endl;
+	gotoxy(45,26);
+	cout<<" # # #    #   #    ##  #      #      # #    #   #   # #   "<<endl;
+	gotoxy(45,27);
+	cout<<" #   #    #   #    # # #      #      ###    #####   ###   "<<endl;
+	gotoxy(45,28);
+	cout<<" #   #    #   #    #  ##      #      # #    #   #   # #   "<<endl;
+	gotoxy(45,29);
+	cout<<" #   #    #####    #   #      #      # #    #   #   # #   "<<endl;
+	gotoxy(0,50);
 }
 
 
-
-void printMaze()
-{
-	cout<<"##########################################"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"#                                        #"<<endl;
-	cout<<"##########################################"<<endl;
-}
 
 
 void gotoxy(int x,int y)
